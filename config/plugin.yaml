@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../node_modules/@ones/plugin-config-schema/dist/plugin-schema.json
+service:
+  app_id: 3lrsCDp7
+  name: gpt
+  version: 1.0.0
+  description: ''
+  mode: org
+  logo: null
+  language: nodejs
+  language_version: 16.13.0
+  host_version: 1.0.4
+  host_sub_version: 1.0.0
+  min_system_version: 3.5.0
+  auth: null
+  config: null
+  scope: 1
+apis:
+  - type: addition
+    methods:
+      - POST
+    url: /hello
+    function: hello
+modules: []
